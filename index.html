@@ -18,6 +18,8 @@
         </section>
         <section class="right">
 
+            <div class="form-desc">
+                
             <p>This is not a real online service! You know you need something
                like this in your life to help you realize your deepest dreams.  
                <br>
@@ -26,56 +28,64 @@
 
             <p>You <em>know</em> you want to.</p>
 
+            </div>
+
             <form>
+                          
 
                 <fieldset>
 
-                <legend>Let's do this!</legend>
+                <p>Let's do this!</p>                    
 
-                <div>
-                    <label for="first_name">FIRST NAME
-                        <input type="text" id="first_name" name="user_fname">
-                    </label>
+                <div class="form-row">    
+                    <div>
+                        <label for="first_name">FIRST NAME
+                            <input type="text" id="first_name" name="user_fname" required>
+                        </label>
+                    </div>
+
+                    <div>
+                        <label for="last_name">LAST NAME
+                            <input type="text" id="last_name" name="user_lname" required>
+                        </label>
+                    </div>
                 </div>
 
-                <div>
-                    <label for="last_name">LAST NAME
-                        <input type="text" id="last_name" name="user_lname">
-                    </label>
-                </div>
+                <div class="form-row">                  
+                    <div>
+                        <label for="mail">EMAIL
+                            <input type="email" id="mail" name="user_email" required>
+                        </label>
+                    </div>
 
-                <div>
-                    <label for="mail">EMAIL
-                        <input type="email" id="mail" name="user_email">
-                    </label>
-                </div>
+                    <div>
+                        <label for="phone_number">PHONE NUMBER
+                            <input type="tel" id="phone_number" name="user_phone_number" required>
+                        </label>
+                    </div>  
+                </div> 
+                
+                <div class="form-row">                  
+                    <div>
+                        <label for="pwd">PASSWORD
+                            <input type="password" id="pwd" name="user_pwd" required>
+                        </label>
+                    </div>
 
-                <div>
-                    <label for="phone_number">PHONE NUMBER
-                        <input type="tel" id="phone_number" name="user_phone_number">
-                    </label>
-                </div>  
-
-                <div>
-                    <label for="pwd">PASSWORD
-                        <input type="password" id="pwd" name="user_pwd">
-                    </label>
-                </div>
-
-                <div>
-                    <label for="confirm_pwd">CONFIRM PASSWORD
-                        <input type="password" id="confirm_pwd" name="confirm_user_pwd">
-                    </label>
+                    <div>
+                        <label for="confirm_pwd">CONFIRM PASSWORD
+                            <input type="password" id="confirm_pwd" name="confirm_user_pwd" required>
+                        </label>
+                    </div>   
                 </div>   
+
 
                 </fieldset>
                 
-                <div>
+                <div class="submit">
                     <button type="submit">Create Account</button>
+                    <p>Already have an account? <a href="https://youtu.be/dQw4w9WgXcQ?si=U4uJuErqPrZeSUEN">Log in</a></p>
                 </div>
-
-                <p>Already have an account? <a href="https://youtu.be/dQw4w9WgXcQ?si=U4uJuErqPrZeSUEN">Log in</a></p>
-
 
             </form>
 
