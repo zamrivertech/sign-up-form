@@ -20,3 +20,18 @@ body {
     font-family: Inter, 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-size: 1.4rem;
 }
+
+main {
+    display: flex;
+    height: 100vh;
+}
+
+.left {
+    width: 35%;
+    background-image: url("./img/betsaid-garcia-mountain-unsplash.jpg");
+}
+
+.right {
+    width: 65%;
+    background-color: green;
+}
