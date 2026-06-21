@@ -12,6 +12,11 @@
     font-weight: bold;
 }
 
+* {
+    margin: 0;
+}
+
 body {
-    font-family: Inter, 'Helvetica Neue', Helvetica, Arial, sans-serif;;
+    font-family: Inter, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 1.4rem;
 }
