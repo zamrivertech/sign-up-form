@@ -16,6 +16,14 @@
     margin: 0;
 }
 
+a {
+    color: white;
+}
+
+a:hover {
+    color: lightblue;
+}
+
 body {
     font-family: Inter, 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-size: 1.4rem;
@@ -50,6 +58,14 @@ main {
 
 .left .logo img {
     max-height: 100%;
+}
+
+.left p {
+    font-size: 1rem;
+    text-align: center;
+    position: relative;
+    top: 20vh;
+    color: white;
 }
 
 .right {
