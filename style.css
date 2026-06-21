@@ -11,3 +11,7 @@
     url("./fonts/Norse-Bold.woff") format("woff");
     font-weight: bold;
 }
+
+body {
+    font-family: Inter, 'Helvetica Neue', Helvetica, Arial, sans-serif;;
+}
